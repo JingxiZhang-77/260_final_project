@@ -67,6 +67,7 @@ library(tidyverse)
 library(lubridate)
 library(readr)
 library(knitr)
+
 cases <- read_csv("../data/cases.csv")
 deaths <- read_csv("../data/death.csv")
 population <- read_csv("../data/population_data.csv")
